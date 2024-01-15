@@ -1,0 +1,5 @@
+runtime: java
+env: flex
+runtime_config:
+  jdk: openjdk11
+entrypoint: 'java -jar ./build/libs/demo-0.0.1-SNAPSHOT-plain.jar'
